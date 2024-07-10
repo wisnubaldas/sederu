@@ -5,61 +5,75 @@
 
       <header class="section-header">
         <h2>Services</h2>
-        <p>Veritatis et dolores facere numquam et praesentium</p>
+        <p>We provide the best service for our partners as a commitment to your business</p>
       </header>
 
       <div class="row gy-4">
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
           <div class="service-box blue">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Nesciunt Mete</h3>
-            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+            {{-- <i class="ri-windows-fill icon"></i> --}}
+            <i class="ri-dashboard-fill icon"></i>
+            <h3>Custom Software Development</h3>
+            <p>We create tailored software solutions designed specifically to meet your unique business requirements</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
           <div class="service-box orange">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Eosle Commodi</h3>
-            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+            <i class="ri-html5-fill icon"></i>
+            <h3>Web Development</h3>
+            <p>Our team builds responsive, user-friendly websites that
+              enhance your online presence and engage your customers effectively.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div class="service-box green">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Ledo Markt</h3>
-            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+            <i class="ri-apps-fill icon"></i>
+            <h3>Mobile App Development</h3>
+            <p>We design and develop mobile applications for both
+              And roid and iOS platforms to ensure you reach your audience wherever they are.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-box red">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Asperiores Commodi</h3>
-            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+            <i class="ri-centos-fill icon"></i>
+            <h3>System Maintenance</h3>
+            <p> We offer regular maintenance to keep your software and
+              systems running smoothly, including updates and upgrades.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
           <div class="service-box purple">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Velit Doloremque.</h3>
-            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+            <i class="ri-customer-service-2-fill icon"></i>
+            <h3>Technical Support</h3>
+            <p>Our team provides 24/7 technical su pport to quickly resolve any issues and minimize downtime</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
           <div class="service-box pink">
-            <i class="ri-discuss-line icon"></i>
-            <h3>Dolori Architecto</h3>
-            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+            <i class="ri-download-cloud-2-fill icon"></i>
+            <h3>Performance Optimization</h3>
+            <p>We enhance system performance to ensure fast,
+              reliable, and efficient operations.</p>
+            <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+          <div class="service-box blue">
+            <i class="ri-lock-2-fill icon"></i>
+            <h3>Security Management</h3>
+            <p>We implement and maintain robust security measures
+              to protect your data and systems from threats.</p>
             <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
