@@ -44,6 +44,7 @@
     @include('front.component.header')
     @include('front.component.section-hero')
   <main id="main">
+    @include('front.component.section-clients')
     @include('front.component.section-about')
     {{-- @include('front.component.section-values') --}}
     {{-- @include('front.component.section-counts') --}}
@@ -51,9 +52,49 @@
     @include('front.component.section-services')
     {{-- @include('front.component.section-pricing') --}}
     {{-- @include('front.component.section-faq') --}}
-    @include('front.component.section-portofolio')
-    @include('front.component.section-team')
-    @include('front.component.section-clients')
+    @include('front.component.section-portofolio',['galeri'=>['1.jpg','3.jpg','3.jpg','4.jpg']])
+    @include('front.component.section-team',['galeri'=>[
+    [
+      'img'=>'pak-zam.png',
+      'fb'=>'',
+      'tw'=>'',
+      'inst'=>'',
+      'ld'=>'',
+      'name'=>'Zamzam R',
+      'pos'=>'Executive Manager',
+      'des'=>''
+    ],
+    [
+      'img'=>'nadiyah.png',
+      'fb'=>'',
+      'tw'=>'',
+      'inst'=>'',
+      'ld'=>'',
+      'name'=>'Nadiayaah F',
+      'pos'=>'Ops',
+      'des'=>''
+  ],
+  [
+      'img'=>'azam.png',
+      'fb'=>'',
+      'tw'=>'',
+      'inst'=>'',
+      'ld'=>'',
+      'name'=>'Abdullah Azam',
+      'pos'=>'Software Arsitect',
+      'des'=>''
+  ],
+  [
+      'img'=>'bu-arta.png',
+      'fb'=>'',
+      'tw'=>'',
+      'inst'=>'',
+      'ld'=>'',
+      'name'=>'Arta R',
+      'pos'=>'Director',
+      'des'=>''
+      ]
+    ]])
     {{-- @include('front.component.section-recent-blog') --}}
     @include('front.component.section-contact')
   </main><!-- End #main -->
