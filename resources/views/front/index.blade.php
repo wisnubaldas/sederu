@@ -44,7 +44,7 @@
     @include('front.component.header')
     @include('front.component.section-hero')
   <main id="main">
-    @include('front.component.section-clients')
+    @include('front.component.section-clients',['galeri'=>['cas.png','dbm.png','fedex.png','mau.png','ra.png','ups.png','gtln.png']])
     @include('front.component.section-about')
     {{-- @include('front.component.section-values') --}}
     {{-- @include('front.component.section-counts') --}}

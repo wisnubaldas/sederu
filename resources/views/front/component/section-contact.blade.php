@@ -17,28 +17,28 @@
               <div class="info-box">
                 <i class="bi bi-geo-alt"></i>
                 <h3>Address</h3>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
+                <p>Alamanda  Tower 2nd Floor Block H1,<br>Jl. TB Simatupang, Kav 23-24 Cilandak, Jakarta Barat</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-telephone"></i>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                <p>021 22760303</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-envelope"></i>
                 <h3>Email Us</h3>
-                <p>info@example.com<br>contact@example.com</p>
+                <p>cs@sederukarya.com</p>
               </div>
             </div>
             <div class="col-md-6">
               <div class="info-box">
                 <i class="bi bi-clock"></i>
-                <h3>Open Hours</h3>
-                <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                <h3>Website</h3>
+                <p>http://www.sederukarya.com</p>
               </div>
             </div>
           </div>
