@@ -1,6 +1,9 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sedc4664/public_html
-    - cp /home/sedc4664/asset/.env $DEPLOYPATH
+    - ls -l
+    - cd /home
+    - ls -l
+    # - cp /home/sedc4664/asset/.env $DEPLOYPATH
     - php composer -v
     - php composer install
