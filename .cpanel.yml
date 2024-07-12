@@ -1,6 +1,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sedc4664/public_html
-    - php
-    - composer -v
+    - php -v
     - ls -l
