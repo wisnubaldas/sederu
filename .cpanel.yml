@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/sedc4664/public_html
+    - /bin/php composer install 
