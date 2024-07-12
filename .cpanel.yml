@@ -1,6 +1,6 @@
+---
 deployment:
   tasks:
     - export DEPLOYPATH=/home/sedc4664/public_html
     - pwd
     - php /home/sedc4644/bin/composer install
-    - cp /home/sedc4664/asset/.env /home/sedc4664/public_html/
