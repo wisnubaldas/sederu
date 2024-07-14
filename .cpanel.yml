@@ -1,10 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sedc4664/public_html
+    - export DEPLOYPATH=/home/sedc4644/public_html
     - pwd
     - ls -la
     - chmod -R 755 /home/sedc4644/public_html/sederu/bootstrap
-    - chmod -R 755 /home/sedc4664/public_html/sederu/storage
+    - chmod -R 755 /home/sedc4644/public_html/sederu/storage
     - php -d "disable_functions=" /home/sedc4644/bin/composer install
     - cp /home/sedc4644/asset/.env $DEPLOYPATH
