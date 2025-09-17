@@ -12,8 +12,8 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            {{-- <li data-filter=".filter-card">Card</li> --}}
+            <li data-filter=".filter-app">WMS Aplicasion</li>
+            <li data-filter=".filter-card">TPS Online Aplicasion</li>
             {{-- <li data-filter=".filter-web">Web</li> --}}
           </ul>
         </div>
@@ -35,7 +35,21 @@
             </div>
             @endforeach
         @endisset
-
+        @isset($tps)
+            @foreach ($tps as $item)
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="{{asset("FlexStart/assets/img/tpsonline/$item")}}" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <div class="portfolio-links">
+                    <a href="{{asset("FlexStart/assets/img/tpsonline/$item")}}" data-gallery="portfolioGallery" class="portfokio-lightbox" title="image-{{$item}}"><i class="bi bi-plus"></i></a>
+                    <a href="#portpolio" title="More Details"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            @endforeach
+        @endisset
       </div>
 
     </div>

@@ -52,7 +52,12 @@
     @include('front.component.section-services')
     {{-- @include('front.component.section-pricing') --}}
     {{-- @include('front.component.section-faq') --}}
-    @include('front.component.section-portofolio',['galeri'=>['1.jpg','3.jpg','3.jpg','4.jpg']])
+    @include('front.component.section-portofolio',
+    [
+      'galeri'=>['1.jpg','3.jpg','3.jpg','4.jpg'],
+      'tps'=>['1.jpg','3.jpg','3.jpg','4.jpg','5.jpg','6.jpg','7.jpg','8.jpg']
+      ]
+    )
     {{-- @include('front.component.section-team',['galeri'=>[
     [
       'img'=>'pak-zam.png',
