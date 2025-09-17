@@ -53,7 +53,7 @@
     {{-- @include('front.component.section-pricing') --}}
     {{-- @include('front.component.section-faq') --}}
     @include('front.component.section-portofolio',['galeri'=>['1.jpg','3.jpg','3.jpg','4.jpg']])
-    @include('front.component.section-team',['galeri'=>[
+    {{-- @include('front.component.section-team',['galeri'=>[
     [
       'img'=>'pak-zam.png',
       'fb'=>'',
@@ -94,7 +94,7 @@
       'pos'=>'Director',
       'des'=>''
       ]
-    ]])
+    ]]) --}}
     {{-- @include('front.component.section-recent-blog') --}}
     @include('front.component.section-contact')
   </main><!-- End #main -->
